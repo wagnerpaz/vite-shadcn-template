@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import { Button } from '@/components/ui/button'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1 className="text-red-500 font-bold">Red Title</h1>
+    <Button variant="outline" className="m-2">Shadcn Working!</Button>
   </StrictMode>,
 )
